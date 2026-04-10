@@ -7,3 +7,8 @@ And here we perfom Machine Learning Models On Out topic
           Food Demand Forecasting
     In that we use the data set Of Food Deand Forecast
         
+This includes the models
+	1.Logistic Regression
+	2.Decision Tree
+	3.KNN
+	
