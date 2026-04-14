@@ -13,15 +13,17 @@ The goal is to reduce food wastage, improve inventory management, and enhance de
 ---
 
 ## 📊 Problem Statement
-Accurate food demand forecasting is essential for restaurants and food service providers.  
-This project uses historical data to predict future demand using Machine Learning techniques.
+Food Demand Forecasting System Using Machine Learning Models for Food Demand Dataset
 
 ---
 
 ## 🧠 Machine Learning Models Used
 - Logistic Regression  
 - Decision Tree  
-- K-Nearest Neighbors (KNN)  
+- K-Nearest Neighbors (KNN)
+- NaviyeBase
+- Support Vector Machine(SVM)
+- Random Forest
 
 ---
 
@@ -58,7 +60,3 @@ Machine Learning models can effectively forecast food demand and help reduce was
 
 ---
 
-## 🔗 Future Improvements
-- Use advanced models like Random Forest, XGBoost  
-- Deploy as a web application  
-- Real-time prediction system  
