@@ -98,9 +98,7 @@ Food-Demand-Forecasting/
 
 ---
 
-## 🚀 How to Run the Project
+## 📌 Conclusion
+Machine Learning models can effectively forecast food demand and help reduce wastage while improving operational efficiency.
 
-### Step 1: Clone Repository
-```bash
-git clone <your-repo-link>
-cd Food-Demand-Forecasting
+---
