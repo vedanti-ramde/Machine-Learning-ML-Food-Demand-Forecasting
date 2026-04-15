@@ -1,8 +1,15 @@
 # 🍽️ Food Demand Forecasting System using Machine Learning
 
 ## 📌 Project Overview
-This project focuses on predicting food demand using various Machine Learning models.  
-The goal is to reduce food wastage, improve inventory management, and enhance decision-making in food-related businesses.
+This project focuses on predicting food demand using multiple Machine Learning models.  
+The system helps reduce food wastage, improve inventory management, and support better decision-making in food service industries.
+
+---
+
+## 🎯 Objective
+- Predict food demand based on historical data  
+- Compare performance of different ML models  
+- Reduce wastage and optimize resources  
 
 ---
 
@@ -12,51 +19,88 @@ The goal is to reduce food wastage, improve inventory management, and enhance de
 
 ---
 
-## 📊 Problem Statement
-Food Demand Forecasting System Using Machine Learning Models for Food Demand Dataset
+## 📁 Repository Structure
+Food-Demand-Forecasting/
+│
+├── Logistic_Regression.ipynb  
+├── Decision_Tree.ipynb  
+├── KNN.ipynb  
+│
+├── dataset.csv  
+└── README.md  
 
 ---
 
-## 🧠 Machine Learning Models Used
-- Logistic Regression  
-- Decision Tree  
-- K-Nearest Neighbors (KNN)
-- NaviyeBase
-- Support Vector Machine(SVM)
-- Random Forest
+## 📊 Dataset Information
+- Type: Structured dataset  
+- Task: Demand Prediction / Classification  
+
+### Features Include:
+- Food item details  
+- Order history  
+- Time-based demand  
+
+### Target:
+- Number of food orders / demand prediction  
 
 ---
 
-## 📁 Dataset
-We used a Food Demand Forecast dataset to train and evaluate our models.
-
----
-
-## ⚙️ Technologies Used
+## 🛠️ Technologies Used
 - Python  
 - Jupyter Notebook  
 - NumPy  
 - Pandas  
-- Scikit-learn  
 - Matplotlib  
+- Scikit-learn  
 
 ---
 
-## 🚀 Features
-- Data preprocessing and cleaning  
-- Model training and testing  
-- Performance comparison of models  
-- Prediction of food demand  
+## 🤖 Models Implemented
+1. Logistic Regression  
+2. Decision Tree  
+3. K-Nearest Neighbors (KNN)  
 
 ---
 
-## 📈 Output
-The system predicts the number of food orders required for a given time period.
+## ⚙️ Implementation Steps
+
+### 1. Data Loading
+- Loaded dataset using Pandas  
+- Checked structure using `.head()`, `.info()`  
+
+### 2. Data Preprocessing
+- Cleaned dataset  
+- Handled missing values  
+- Split features and target  
+
+### 3. Train-Test Split
+- Used 80:20 ratio  
+
+### 4. Model Training
+- Applied ML algorithms  
+- Trained models on dataset  
+
+### 5. Prediction
+- Generated predictions using test data  
+
+### 6. Evaluation
+- Accuracy Score  
+- Confusion Matrix  
+- Classification Report  
 
 ---
 
-## 📌 Conclusion
-Machine Learning models can effectively forecast food demand and help reduce wastage while improving operational efficiency.
+## 📈 Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall  
+- F1-Score  
 
 ---
 
+## 🚀 How to Run the Project
+
+### Step 1: Clone Repository
+```bash
+git clone <your-repo-link>
+cd Food-Demand-Forecasting
