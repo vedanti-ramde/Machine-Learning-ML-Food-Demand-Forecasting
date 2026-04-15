@@ -21,14 +21,16 @@ The system helps reduce food wastage, improve inventory management, and support 
 
 ## 📁 Repository Structure
 Food-Demand-Forecasting/
-├── Logistic_Regression.ipynb  
-├── Decision_Tree.ipynb  
-├── KNN.ipynb  
-│── Random Forest.ipynb 
-│── Support Vector Mchine(SVM).ipynb 
-│── NaviyeBaies.ipynb 
-├── dataset.csv  
-└── README.md  
+│
+├── Logistic_Regression.ipynb
+├── Decision_Tree.ipynb
+├── KNN.ipynb
+├── Random_Forest.ipynb
+├── Support_Vector_Machine_SVM.ipynb
+├── Naive_Bayes.ipynb
+│
+├── dataset.csv
+└── README.md
 
 ---
 
