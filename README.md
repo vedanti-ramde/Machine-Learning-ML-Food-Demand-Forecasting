@@ -33,7 +33,8 @@ Food-Demand-Forecasting/
 ├── Support_Vector_Machine_SVM.ipynb
 
 ├── Naive_Bayes.ipynb
-│
+
+
 ├── dataset.csv
 
 └── README.md
